@@ -1,0 +1,11 @@
+{
+  "toolchain": "leanprover/lean4:v4.30.0",
+  "mathlib_rev": null,
+  "statement_def": "statementProp",
+  "entry_theorem": "proof",
+  "axiom_allowlist": ["propext", "Classical.choice", "Quot.sound"],
+  "import_allowlist": ["Mathlib"],
+  "reject_sorry": true,
+  "max_build_secs": 600,
+  "max_artifact_bytes": 5242880
+}
